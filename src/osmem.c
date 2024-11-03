@@ -19,7 +19,7 @@ void *os_malloc(size_t size)
 {
 	if (size == 0)
 		return NULL;
-
+		
 	size_t total_size = ALIGN_SIZE(size + sizeof(struct block_meta));
 	struct block_meta *block;
 	if (total_size < MMAP_THRESHOLD)
