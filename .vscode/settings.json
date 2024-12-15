@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "osmem.h": "c",
+        "string.h": "c",
+        "block_meta.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}
